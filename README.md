@@ -1,10 +1,14 @@
 # Apple Music-core
-Downloading Music from Apple music!
+Mengunduh Musik dari applemusic
 
+# Instalasi
+```bash
+npm i applemusic-core
+```
 ## Bagaimana cara memakainya?
 ### Mendapatkan Track Info
 ```javascript
-const { getInfo } = const("applemusic-core")
+const { getInfo } = require("applemusic-core")
 
 const yourlink = ""
 const res = await getInfo(yourlink)
