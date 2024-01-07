@@ -27,7 +27,6 @@ Result scheme:
     cover: String
   }
 ]
-}
 ```
 
 ## Downloading audio
