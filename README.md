@@ -3,6 +3,10 @@
 
 Download music from Apple Music
 
+## [ WARNING ] Read this for Indonesian people <JB>
+
+> If you are caught buying and selling this code, we have the right to charge a fee for the code you sell
+
 # Installation
 ```bash
 npm i applemusic-core
