@@ -1,4 +1,6 @@
 # Apple Music-core
+![am](https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_Music_icon.svg)
+
 Download music from Apple Music
 
 # Installation
