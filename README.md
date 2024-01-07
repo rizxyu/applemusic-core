@@ -3,7 +3,7 @@
 
 Download music from Apple Music
 
-## [ WARNING ] Read this for Indonesian JB people
+## [ WARNING ] 
 
 > If you are caught buying and selling this code, we have the right to charge a fee for the code you sell
 
@@ -13,7 +13,7 @@ npm i applemusic-core
 ```
 
 # Usage
-## Search by song title
+## Search by "song title"
 ```javascript
 const { search } = require("applemusic-core");
 
@@ -35,7 +35,7 @@ Result scheme:
 ]
 ```
 
-## Downloading audio
+## Downloading "audio"
 ```javascript
 const { download } = require("applemusic-core");
 
