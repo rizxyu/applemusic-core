@@ -52,6 +52,19 @@ Result scheme:
   data: Buffer
 }
 ```
+## Filter Searching
+
+```javascript
+const { search } = require("applemusic-core");
+
+async function filtering(text) {
+const res = await search(text)
+const filter = res.filter(v => v.type === "Song")
+return filter
+}
+
+filtering("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271")
+```
 
 ## Version
 <details><summary>1.0.0</summary>
