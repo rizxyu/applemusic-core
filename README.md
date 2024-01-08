@@ -7,13 +7,13 @@ Download music from Apple Music
 
 > If you are caught buying and selling this code, we have the right to charge a fee for the code you sell
 
-# Installation
+## Installation
 ```bash
 npm i applemusic-core
 ```
 
-# Usage
-## Search by "song title"
+## Usage
+### Search by "song title"
 ```javascript
 const { search } = require("applemusic-core");
 
@@ -35,7 +35,7 @@ Result scheme:
 ]
 ```
 
-## Downloading "audio"
+### Downloading "audio"
 ```javascript
 const { download } = require("applemusic-core");
 
@@ -53,8 +53,15 @@ Result scheme:
 }
 ```
 
+## Version
+<details><summary>1.0.0</summary>
+  Changelog:
+  
+- [x] Search
+- [x] Downloading Song
+</details>
 
-License
+#License
 -------
 
 Copyright (c) 2024 Wizz Team
