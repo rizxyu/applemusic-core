@@ -1,6 +1,6 @@
 {
   "name": "applemusic-core",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "Core module for Apple Music download functionality",
   "main": "index.js",
   "keywords": [
