@@ -68,12 +68,16 @@ filtering("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i
 
 ## Version
 <details><summary>1.0.0</summary>
-  Changelog:
+<b>Changelog:</b>
   
 - [x] Search
 - [x] Downloading Song
 </details>
-
+<details><summary>1.0.5-beta</summary>
+<b>Changelog:</b>
+  
+- [x] Support Download Album/Playlist
+</details>
 #License
 -------
 
