@@ -37,10 +37,16 @@ Result scheme:
 
 ### Downloading "audio"
 ```javascript
-const { download } = require("applemusic-core");
+const { download, dlAlbum } = require("applemusic-core");
 
+//song
 (async function(url) {
   const results = await download(query);
+})("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271");
+
+//album
+(async function(url) {
+  const results = await dlAlbum(query);
 })("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271");
 ```
 
@@ -59,11 +65,11 @@ const { search } = require("applemusic-core");
 
 async function filtering(text) {
 const res = await search(text)
-const filter = res.filter(v => v.type === "Song")
+const filter = res.filter(v => v.type === "Song")//change song, playlist or album
 return filter
 }
 
-filtering("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271")
+filtering("royalty")
 ```
 
 ## Version
