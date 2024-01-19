@@ -37,25 +37,41 @@ Result scheme:
 
 ### Downloading "audio"
 ```javascript
-const { download, dlAlbum } = require("applemusic-core");
+const { download, downloadAlbums } = require("applemusic-core");
 
 //song
 (async function(url) {
-  const results = await download(query);
+  const results = await download(url);
 })("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271");
 
 //album
-(async function(url) {
-  const results = await dlAlbum(query);
-})("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271");
+(async function(url, limit) {
+  const results = await downloadAlbums(url, limit);
+})("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900", 3);
 ```
 
 Result scheme:
 ```javascript
+// Download
 {
-  filename: String,
-  mimetype: String,
-  data: Buffer
+  filename: string;
+  image: string;
+  title: string;
+  mimetype: string;
+  data: Buffer;
+}
+
+// Download Albums
+{
+  artists: string,
+  image: string,
+  audios: [
+    {
+      image: string,
+      title: string,
+      data: buffer
+    }
+  ]
 }
 ```
 ## Filter Searching
