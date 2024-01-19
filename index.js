@@ -1,3 +1,3 @@
-const { download, search } = require("./lib/index.js")
+const _default = require("./lib/index.js")
 
-module.exports = { download, search }
+module.exports = _default
