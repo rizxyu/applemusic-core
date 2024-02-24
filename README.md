@@ -1,10 +1,30 @@
 # Apple Music-core
 ![am](https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_Music_icon.svg)
+<p align="center">
+  <a aria-label="NPM Version" 
+aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
+    <img alt="" src="https://img.shields.io/npm/v/applemusic-core.svg?label=NPM&logo=npm&style=for-the-badge&color=F2984A&logoColor=white">
+  </a>
+  <a aria-label="NPM Download Count" href="https://www.npmjs.com/package/applemusic-core">
+    <img alt="" src="https://img.shields.io/npm/dt/applemusic-core?label=Downloads&style=for-the-badge&color=D2667B">
+  </a>
+  <a aria-label="bard-ai Size" href="https://www.npmjs.com/package/applemusic-core">
+    <img alt="" src="https://img.shields.io/bundlephobia/minzip/applemusic-core?style=for-the-badge&color=8B77CD">
+  </a>
+  <a aria-label="Join the community on Whatsapp" href="https://chat.whatsapp.com/JQfqvq7vlvvLM3Pj3w3nnQ">
+    <img alt="" src="https://img.shields.io/badge/Whatsapp-339AE0?style=for-the-badge&logo=Whatsapp&logoColor=white&label=Community">
+  </a>
+</p>
+<p align="center">
+<a href="https://github.com/Rizxyu/followers"><img title="Followers" src="https://img.shields.io/github/followers/Rizxyu?style=flat-square"></a>
+<a href="https://github.com/Rizxyu/applemusic-core/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Rizxyu/applemusic-core?style=flat-square"></a>
+<a href="https://github.com/Rizxyu/applemusic-core/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rizxyu/applemusic-core?style=flat-square"></a>
+<a href="https://github.com/Rizxyu/RIXLE-BOT/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/Rizxyu/applemusic-core?style=flat-square"></a>
+</p>
+<br></br>
+<b>Download music from Apple Music<b>
 
-Download music from Apple Music
-
-## [ WARNING ] 
-
+>[!WARNING]\
 > If you are caught buying and selling this code, we have the right to charge a fee for the code you sell
 
 ## Installation
