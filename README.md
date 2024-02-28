@@ -25,13 +25,12 @@ aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
 <b>Download music from Apple Music<b>
 
 >[!WARNING]\
-> If you are caught buying and selling this code, we have the right to charge a fee for the code you sell
+> This code is open source, do not sell this script! because it's free!
 
 ## Installation
 ```bash
 npm i applemusic-core
 ```
-
 ## Usage
 ### Search by "song title"
 ```javascript
