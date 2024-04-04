@@ -11,7 +11,7 @@ aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
   <a aria-label="bard-ai Size" href="https://www.npmjs.com/package/applemusic-core">
     <img alt="" src="https://img.shields.io/bundlephobia/minzip/applemusic-core?style=for-the-badge&color=8B77CD">
   </a>
-  <a aria-label="Join the community on Whatsapp" href="https://chat.whatsapp.com/JQfqvq7vlvvLM3Pj3w3nnQ">
+  <a aria-label="Join the community on Whatsapp" href="https://chat.whatsapp.com/KaMbvtH844aCY4uDdqwBf2">
     <img alt="" src="https://img.shields.io/badge/Whatsapp-339AE0?style=for-the-badge&logo=Whatsapp&logoColor=white&label=Community">
   </a>
 </p>
@@ -28,8 +28,13 @@ aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
 > This code is open source, do not sell this script! because it's free!
 
 ## Installation
+* STABLE VERSION
 ```bash
 npm i applemusic-core
+```
+* UPDATED
+```bash
+npm i github:rizxyu/applemusic-core
 ```
 ## Usage
 ### Search by "song title"
