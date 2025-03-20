@@ -11,8 +11,8 @@ aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
   <a aria-label="bard-ai Size" href="https://www.npmjs.com/package/applemusic-core">
     <img alt="" src="https://img.shields.io/bundlephobia/minzip/applemusic-core?style=for-the-badge&color=8B77CD">
   </a>
-  <a aria-label="Join the community on Whatsapp" href="https://chat.whatsapp.com/KaMbvtH844aCY4uDdqwBf2">
-    <img alt="" src="https://img.shields.io/badge/Whatsapp-339AE0?style=for-the-badge&logo=Whatsapp&logoColor=white&label=Community">
+  <a aria-label="Join the community on Discord" href="https://discord.gg/ggZ7EspBTq">
+    <img alt="" src="https://img.shields.io/badge/Discord-339AE0?style=for-the-badge&logo=Discord&logoColor=white&label=Rizxyu">
   </a>
 </p>
 <p align="center">
