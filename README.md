@@ -25,13 +25,9 @@ aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
 <b>Download music from Apple Music<b>
 
 >[!WARNING]\
-> This code is open source, do not sell this script! because it's free!
+> This code based from YT-DLP [check here how to use](https://github.com/yt-dlp/yt-dlp)
 
 ## Installation
-* STABLE VERSION
-```bash
-npm i applemusic-core
-```
 * UPDATED
 ```bash
 npm i github:rizxyu/applemusic-core
