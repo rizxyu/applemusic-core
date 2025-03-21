@@ -33,82 +33,49 @@ aria-label="NPM Version" href="https://www.npmjs.com/package/applemusic-core">
 npm i github:rizxyu/applemusic-core
 ```
 ## Usage
-### Search by "song title"
-```javascript
-const { search } = require("applemusic-core");
-
-(async function(query) {
-  const results = await search(query);
-})("Never gonna give you up");
-```
-
-Result scheme:
-```javascript
-[
-  {
-    url: String,
-    type: String,
-    artists: String,
-    title: String,
-    cover: String
-  }
-]
-```
 
 ### Downloading "audio"
 ```javascript
-const { download, downloadAlbums } = require("applemusic-core");
+const { songExt, audioBuffer } = require("applemusic-core");
 
 //song
-(async function(url) {
-  const results = await download(url);
-})("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900?i=1558534271");
+(async function(title, artist) {
+  const results = await audioBuffer(title,artist);
+})("LUMINARY", "JOHN DOE");
 
 //album
-(async function(url, limit) {
-  const results = await downloadAlbums(url, limit);
-})("https://music.apple.com/id/album/never-gonna-give-you-up/1558533900", 3);
+(async function(url) {
+  const results = await songExt(url);
+})("https://music.apple.com/song/never-gonna-give-you-up");
 ```
 
 Result scheme:
 ```javascript
-// Download
+// Download audioBuffer
 {
-  filename: string;
-  image: string;
-  title: string;
-  mimetype: string;
-  data: Buffer;
+  buffer: buffer..
 }
 
-// Download Albums
+// Download song with metadata
 {
+  title:string,
   artists: string,
-  image: string,
-  audios: [
-    {
-      image: string,
-      title: string,
-      data: buffer
-    }
-  ]
+  thumbnail: string,
+  url: string,
+  releaseDate: string,
+  buffer: buffer..,
 }
-```
-## Filter Searching
-
-```javascript
-const { search } = require("applemusic-core");
-
-async function filtering(text) {
-const res = await search(text)
-const filter = res.filter(v => v.type === "Song")//change song, playlist or album
-return filter
-}
-
-filtering("royalty")
 ```
 
 ## Version
+<details><summary>1.5.0</summary>
+<b>Changelog:</b>
+  
+- [x] song & album extract metadata
+- [x] get audio buffer
+- [x] delete search
+
+</details>
 <details><summary>1.0.0</summary>
 <b>Changelog:</b>
   
