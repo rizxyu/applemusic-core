@@ -21,6 +21,7 @@
   "homepage": "https://github.com/rizxyu/applemusic-core#readme",
   "dependencies": {
     "axios": "^1.6.1",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "yt-search": "^2.12.1"
   }
 }
